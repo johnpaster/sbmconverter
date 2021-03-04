@@ -3,6 +3,7 @@ This is a python script dedicated for converting songs, adding fade effect, form
 Addon link: https://steamcommunity.com/workshop/filedetails/?id=2085721189
 
 Requirements:
+
 0. Python (You must include it in the path)
 1. Pydub (pip install pydub)
 2. FFMPEG. Already packaged with the release version. However, if you feel unsafe you may download the script straight from the repository and download the ffmpeg executables from their official site. https://ffmpeg.org/download.html
