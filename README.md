@@ -9,4 +9,4 @@ Requirements:
 2. FFMPEG. Already packaged with the release version. However, if you feel unsafe you may download the script straight from the repository and download the ffmpeg executables from their official site. https://ffmpeg.org/download.html
 
 Usage:
-Download the release, open either the sbmconvert file or sbmconvertpy, close the script and drop songs into the songs folder, open the script again and wait until it's done, after that check in songs_converted and use the files as you please.
+Download the release, open the sbmconvert.py script, close the script and drop songs into the songs folder, open the script again and wait until it's done, after that check in songs_converted and use the files as you please.
