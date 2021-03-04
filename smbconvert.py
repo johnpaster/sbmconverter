@@ -13,7 +13,7 @@ def cleanup(filepath, file):
     
 def edit(file):
     loadedsong = AudioSegment.from_file(file)
-    fadetime = round(clamp(ceil((len(loadedsong) / 1000.0)) * 0.02, 0, 7), 2)
+    fadetime = ceil(clamp((len(loadedsong)) * 0.02, 0, 7000))
     editedsong = loadedsong.fade_in(fadetime).fade_out(fadetime).set_frame_rate(44100)
     return editedsong
 
